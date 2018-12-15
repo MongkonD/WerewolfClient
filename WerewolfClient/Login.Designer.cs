@@ -58,6 +58,7 @@
             this.label1.Size = new System.Drawing.Size(57, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "Login";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -178,7 +179,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(-2, 0);
+            this.pictureBox2.Location = new System.Drawing.Point(564, 0);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(622, 452);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -189,7 +190,7 @@
             // 
             this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Default;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(-2, 0);
+            this.pictureBox3.Location = new System.Drawing.Point(592, 12);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(622, 452);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
